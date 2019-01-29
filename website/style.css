@@ -1,0 +1,18 @@
+body{
+    background: yellow;
+    color: black;
+    font-family: monospace;
+    
+}
+
+#container{
+    width: 800PX;
+    margin: 0 auto;
+
+}
+
+img{width: 100%};
+
+.slide{
+    margin-top: 1em;
+}
