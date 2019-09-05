@@ -20,3 +20,8 @@ img{width: 100%};
 p{
     font-size: 25px;
  }
+
+#twin{ 
+width: 50%;
+float: left;
+}
