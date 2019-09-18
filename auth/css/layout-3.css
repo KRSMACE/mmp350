@@ -1,24 +1,64 @@
 #container {
-	width: 100%;
-	max-width: 1200px;
+	width: 1060px;
 	margin: 0 auto;
-	
+	background-color: #605B56;
 	display: grid;
-	grid-template-columns: 2fr 1fr;
-	
-	grid-template-areas: 
-		"header menu"
-		"main login"
-		"main profile"
-		"main social";	
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 1em;
+	row-gap: 1em;
+    grid-template-rows: 100px max-content max-content;
 }
 
 #title {
-	grid-area: header;
+    background-color:azure;
+	grid-column: 1 / span 3;
+    grid-row: 2
 }
 
-#main { grid-area: main; }
-#menu { grid-area: menu; }
-#login { grid-area: login; }
-#profile { grid-area: profile; }
-#social { grid-area: social; }
+#menu {
+    background-color:beige;
+	grid-column: 1 / span 3;
+	grid-row: 1;
+}
+
+#login {
+    background-color:#EFF1F3;
+	grid-column: 4 / span 1;
+	grid-row: 1;
+}
+
+#main {
+    background-color: #009FB7;
+	grid-column: 1 / span 3;
+	grid-row: 3 
+}
+
+#profile {
+    background-color:cadetblue;
+	grid-column: 4 / span 1;
+    grid-row: 3 ; 
+}
+
+#social {
+    background-color: #FED766;
+	grid-column: 4 / span 1;
+    grid-row: 2
+}
+#footer {
+    background-color: darkgoldenrod;
+    grid-column:1 / span 4    ;
+    grid-row:5;
+}
+img{
+    width: 100%
+}
+
+#menu li{
+    display: flex;
+    float: left;
+    text-align: center;
+    padding: 25px;
+    
+  
+}
+/*https://coolors.co/000000-cf5c36-eee5e9-7c7c7c-efc88b
