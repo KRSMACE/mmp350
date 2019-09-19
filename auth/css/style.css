@@ -1,1 +1,4 @@
 @import "layout-3.css";
+@import "auth.css";
+
+img { width: 100%; }
