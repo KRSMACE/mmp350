@@ -1,4 +1,4 @@
-@import "layout-3.css";
+@import "layout.css";
 @import "auth.css";
-
+@import "responsive.css";
 img { width: 100%; }
