@@ -27,7 +27,7 @@ firebase.auth().onAuthStateChanged(function(user) {
         
         const profileButton = document.getElementById("edit-profile");
         profileButton.onclick = function() {
-            location.href = "profile.html?uid=" = user.uid;
+            location.href = "profile.html?uid=" + user.uid;
         };
     
         
