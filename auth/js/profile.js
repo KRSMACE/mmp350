@@ -4,9 +4,10 @@ const userRef = firebase.database().ref('users').child(uid);
 const profileName = document.getElementById('profile-name');
 const bioInput = document.getElementById('bio');
 const updateButton = document.getElementById('update-profile');
-const genderInput = document.getElementById('gender');
-const phoneInput = document.getElementById('phone');
-const birthdayInput = document.getElementById('birthday');
+const genderInput = document.getElementById('profile-gender');
+const phoneInput = document.getElementById('profile-phone');
+const birthdayInput = document.getElementById('profile-birthday');
+/*const emailInput = document.getElementById('profile-email');*/
 
 userRef.on('value', function(snapshot) {
 	const userInfo = snapshot.val();
@@ -15,24 +16,29 @@ userRef.on('value', function(snapshot) {
 	if (userInfo.bio) {
 		bioInput.value = userInfo.bio;
     }
-    if (userInfo.gender) {
-        genderInput.value = userInfo.gender;
+    if (userInfo.displayGender) {
+        genderInput.value = userInfo.displayGender;
     }
-    if (userInfo.phone) {
-        phoneInput.value = userInfo.phone;
+    if (userInfo.displayPhone) {
+        phoneInput.value = userInfo.displayPhone;
     }
-    if  (userInfo.birthday) {
-        birthdayInput.value = userInfo.birthday;
+    if  (userInfo.displayBirthday) {
+        birthdayInput.value = userInfo.displayBirthday;
     }
+    /*if (userInfo.displayEmail){
+        emailInput.value = userInfo.displayEmail;
+    }*/
 });
 
 updateButton.onclick = function() {
 	userRef.update({
 		displayName: profileName.value,
         bio: bioInput.value,
-		gender: genderInput.value,
-		phone: phoneInput.value,
-		birthday: birthdayInput.value,
+		displayGender: genderInput.value,
+		displayPhone: phoneInput.value,
+		displayBirthday: birthdayInput.value,
+        /*displayEmail: emailInput.value*/
+        
 		
 	});
 };
