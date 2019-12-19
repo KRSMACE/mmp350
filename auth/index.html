@@ -8,6 +8,7 @@
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
@@ -33,7 +34,6 @@
 	<div id="container">
 	
 		<div id="title">
-			<img src="logo.png">
 			<h1>MMP 350 Web App</h1>
 		</div>
 		
@@ -41,8 +41,8 @@
 			<ul>
 			    <li><a href="index.html">Home</a></li>
 				<li><a href="about">About</a></li>
-				<li><a href="profile">Profile</a></li>
-				<li><a href="users">Users</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="users.html">Users</a></li>
 				<li><a href="support">Support</a></li>
 			</ul>
 		</div>
@@ -61,13 +61,16 @@
 		</div>
 		
 		<div id="main">
-			<img src="cat.jpg" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam atque dolorem excepturi officiis beatae, fugiat culpa non fuga maxime quos !</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam atque dolorem excepturi officiis beatae, fugiat culpa non fuga maxime quos !</p>
+			<div id="write-post">
+				<textarea id="post-text" placeholder="Compose a new post"></textarea>
+				<button id="publish">Publish</button>
+			</div>
+			<div id="posts"></div>
 		</div>
+        
 		<div id="profile">
-			<img src="cat.jpg" alt="">
-			<button>Edit Profile</button>
+			<img id="edit-profile-image" src="cat.jpg" alt="">
+			<button id="edit-profile">Edit Profile</button>
 		</div>
 		<div id="social">
 			<ul>
@@ -80,7 +83,11 @@
 		<div id="footer">
 		    <p> Das Footer Yah 2019</p>
 		</div>
-		<script src="auth.js"></script>
+		   <script src="js/auth.js"></script>
+	       <script src="js/publish.js"></script>
+	       <script src="js/posts.js"></script>
+	       <script src="js/index.js"></script>
+       
 	</div>
 </body>
 </html>
