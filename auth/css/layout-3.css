@@ -3,7 +3,7 @@
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
-	border: solid;
+	border: solid 10px;
 	border-color: ;
 	display: grid;
 	grid-template-columns: 20em 1fr, 1fr;

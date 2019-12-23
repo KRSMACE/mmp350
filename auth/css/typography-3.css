@@ -12,7 +12,7 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-@media(max-width: 414px){
+@media(max-width: 451px){
 	#title{
 		font-family: 'Orbitron', sans-serif;
 		font-size: 30px;
@@ -28,7 +28,7 @@
 		font-family: 'Roboto', sans-serif;
 	
 }
-@media(max-width:1024px) and (min-width:414px){
+@media(max-width:1024px) and (min-width:451px){
 	#title{
     font-family: 'Baloo BhaiBaloo Bhai', cursive;
     font-size: 30px;

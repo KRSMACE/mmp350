@@ -1,12 +1,12 @@
 /* mobile */
-@media(max-width: 414px){
+@media(max-width: 451px){
     #container{
         width: 100%;
         border-bottom: 1px solid black;
         grid-template-columns: 100%;
     }
 
-    #title, #title-create, #menu, #menu-create, #user-info, #main, #main-create, #write-post , #profile{
+    #title, , #menu,  #user-info, #main,  #write-post , #profile{
         grid-column: 1 / span 1;
     }
 
@@ -63,6 +63,8 @@
         grid-column: 1;
        
     }
+    
+    
 
  
     #error-message{
