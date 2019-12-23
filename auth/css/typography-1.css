@@ -1,0 +1,46 @@
+#title{
+	font-family: 'Audiowide', cursive;
+}
+
+#posts{
+	font-family: 'Montserrat', sans-serif;
+}
+#user-info{
+	font-family: 'Montserrat', sans-serif;
+}
+#social{
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width: 414px){
+	#title{
+		font-family: 'Audiowide', cursive;
+		font-size: 30px;
+	}
+	
+	#posts{
+		font-family: 'Montserrat', sans-serif;
+	}
+	#user-info{
+		font-family: 'Montserrat', sans-serif;
+	}
+	#social{
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+}
+@media(max-width:1024px) and (min-width:414px){
+	#title{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+#posts{
+	font-family: 'Lilita One', cursive;
+}
+#user-info{
+	font-family: 'Lilita One', cursive;
+}
+#social{
+	font-family: 'Lilita One', cursive;
+}}
