@@ -1,35 +1,35 @@
-/*complementary color scheme(blue and orange)
-  main #1786FF
-  blue accents #3094FF #085AB3
-  orange accents #
-*/
-/*Analogous:
-#BC80FA
-#8971DE
-#888DF5
-#7193DE
-#80C6FA
+
+/*Triadic
+#D066D2
+#D2D066
+#66D2D0
 */
 
 :root{
-  --main-color:#8971DE;
-  --text-color:#80C6FA;
-  --link-color:rgb(56, 98, 189);
-  --button-color:#BC80FA;
-  --background-color:#7193DE;
+  --main-color:#D066D2;
+  --second-color:#D2D066;
+  --third-color:#66D2D0;
+  
+}
 
-}
-*{
-  color: var(--text-color);
-}
 button{
     color:var(--text-color);
-    background-color: var(--button-color);
+    background-color: var(--second-color);
 }
+
 #menu{
   background-color:var(--main-color) ;
 }
 
 a{
-  color:var(--link-color) ;
+  color:var(--third-color) ;
+}
+
+#publish{
+    background-color: var(--main-color);
+    background: var(--main-color);
+}
+
+#container{
+    border-color:var(--third-color) ;
 }

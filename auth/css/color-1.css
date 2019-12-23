@@ -4,18 +4,19 @@ background-color:#E45641;
 background-color:#7B8D8E;
 background-color:#F2EDD8;
 */
+
+/*  Monochromatic 
+
+*/
 :root{
-    --main-color:#5AC2CC;
-    --text-color:rgb(70, 88, 91);
-    --link-color:#387A80;
-    --button-color:#70F3FF;
-    --background-color:#5E7D80;
+    --main-color:#F1A94E;
+    --text-color:#000000;
+    --link-color:#000000;
+    --button-color:#F1A94E;
+    --background-color:#F1A94E;
 
 }
 
-{
-  color: var(--text-color);
-}
 
 button{
     color:var(--text-color);
@@ -28,4 +29,13 @@ button{
 
 a{
   color:var(--link-color) ;
+}
+
+#publish{
+    background-color: var(--main-color);
+    background: var(--main-color);
+}
+
+#container{
+    border-color:var(--main-color);
 }

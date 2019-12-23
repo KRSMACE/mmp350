@@ -1,8 +1,9 @@
-@import "layout-4.css";
+@import "layout-3.css";
 @import "auth.css";
 @import "responsive.css";
+@import "color-3.css";
 @import "publish.css";
-@import "color-1.css";
+
 
 @import "menu.css";
 img { width: 100%; }

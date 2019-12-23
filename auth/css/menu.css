@@ -1,7 +1,6 @@
 #menu{
-	background: #94e6ca;
-	padding: 5px;
-	border-radius: 4px;
+	padding: 15px;
+	border-radius: 50px;
 }
 
 #menu ul {
@@ -17,36 +16,14 @@
 
 #menu li {
 	list-style: none;
-/*	flex-grow: 1;*/
-/*	flex-basis: 120px;*/
+    
+
     
 }
 
 #menu a{
 	font-family: Arial, Helvetica, sans-serif;
 }
-#menu-create{
-	background: #94e6ca;
-}
 
-#menu-create ul {
-	margin: 0;
-	padding: 0;
-	
-	display: flex;
-	flex-direction: row;
-   justify-content: space-evenly;
-	align-items: center;
-	flex-wrap: wrap;
-}
 
-#menu-create li {
-	list-style: none;
-/*	flex-grow: 1;*/
-/*	flex-basis: 120px;*/
-    
-}
 
-#menu-create a{
-	font-family: Arial, Helvetica, sans-serif;
-}
