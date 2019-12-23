@@ -1,0 +1,54 @@
+#container {
+	width: 1060px;
+	margin: 0 auto;
+	background-color: #50A2A7;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/*column-gap: 1em;*/
+    grid-template-rows: 100px max-content max-content;
+}
+
+#title {
+    background-color:#9B2915;
+	grid-column: 4 / span 1;
+    grid-row: 1 / span 2
+}
+
+#menu {
+    background-color:beige;
+	grid-column: 1 / span 1;
+	grid-row: 2;
+}
+
+#login {
+    background-color:#E9B44C;
+	grid-column: 1 / span 3;
+	grid-row: 1;
+}
+
+#main {
+    background-color:#BFDBF7;
+	grid-column: 1/ span 1 ;
+	grid-row: 2
+}
+
+#profile {
+    background-color:#EFAAC4;
+	grid-column: 3 / span 1;
+    grid-row: 2 ; 
+}
+
+#social {
+    background-color: darkseagreen;
+	grid-column: 2 / span 1;
+    grid-row: 2
+}
+#footer {
+    background-color: #040303;
+    grid-column:1 / span 5;
+    grid-row:7;
+}
+img{
+    width: 100%
+}
+/*https://coolors.co/000000-cf5c36-eee5e9-7c7c7c-efc88b

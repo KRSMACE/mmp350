@@ -1,0 +1,45 @@
+/*background-color:#44B3C2;
+background-color:#F1A94E;
+background-color:#E45641;
+background-color:#7B8D8E;
+background-color:#F2EDD8;
+*/
+
+/*  Monochromatic 
+
+*/
+:root{
+    --main-color:#F1A94E;
+    --text-color:#000000;
+    --link-color:#000000;
+    --button-color:#F1A94E;
+    --background-color:#F1A94E;
+
+}
+
+
+button{
+    color:var(--text-color);
+    background-color: var(--button-color);
+}
+
+#menu{
+  background-color:var(--main-color) ;
+}
+
+a{
+  color:var(--link-color) ;
+}
+
+#publish{
+    background-color: var(--main-color);
+    background: var(--main-color);
+}
+
+#container{
+    border-color:var(--main-color);
+}
+hr{
+  border: 1px solid var(--main-color) ;  
+}
+

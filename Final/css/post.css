@@ -1,0 +1,10 @@
+
+
+.post{
+   
+   padding: 90px;
+   margin: 5px;
+   border-color: #eee #ddd #bbb;
+   box-shadow: 5px 10px 10px rgba(241, 169, 78, 0.85);
+   border-radius: 70px;
+}

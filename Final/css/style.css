@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Montserrat:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto&display=swap');
+
+@import "typography-3.css";
+@import "layout-3.css";
+@import "auth.css";
+@import "responsive.css";
+@import "color-1.css";
+@import "publish.css";
+@import "post.css";
+
+
+@import "menu.css";
+img { width: 100%; }
+
+

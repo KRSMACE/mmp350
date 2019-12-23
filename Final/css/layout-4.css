@@ -1,0 +1,11 @@
+#container {
+	padding:5px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	border: solid;
+	border-color:coral;
+	display: grid;
+	grid-template-columns: 20em 1fr;
+	column-gap: 0.5em;
+}

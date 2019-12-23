@@ -1,0 +1,35 @@
+
+/*Triadic
+#D066D2
+#D2D066
+#66D2D0
+*/
+
+:root{
+  --main-color:#D066D2;
+  --second-color:#D2D066;
+  --third-color:#66D2D0;
+  
+}
+
+button{
+    color:var(--text-color);
+    background-color: var(--second-color);
+}
+
+#menu{
+  background-color:var(--main-color) ;
+}
+
+a{
+  color:var(--third-color) ;
+}
+
+#publish{
+    background-color: var(--main-color);
+    background: var(--main-color);
+}
+
+#container{
+    border-color:var(--third-color) ;
+}
