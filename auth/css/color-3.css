@@ -1,0 +1,35 @@
+/*complementary color scheme(blue and orange)
+  main #1786FF
+  blue accents #3094FF #085AB3
+  orange accents #
+*/
+/*Analogous:
+#BC80FA
+#8971DE
+#888DF5
+#7193DE
+#80C6FA
+*/
+
+:root{
+  --main-color:#8971DE;
+  --text-color:#80C6FA;
+  --link-color:rgb(56, 98, 189);
+  --button-color:#BC80FA;
+  --background-color:#7193DE;
+
+}
+*{
+  color: var(--text-color);
+}
+button{
+    color:var(--text-color);
+    background-color: var(--button-color);
+}
+#menu{
+  background-color:var(--main-color) ;
+}
+
+a{
+  color:var(--link-color) ;
+}

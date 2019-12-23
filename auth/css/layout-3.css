@@ -10,42 +10,42 @@
 }
 
 #title {
-    background-color:azure;
+    /*background-color:azure;*/
 	grid-column: 1 / span 3;
     grid-row: 2
 }
 
 #menu {
-    background-color:beige;
+    /*background-color:beige;*/
 	grid-column: 1 / span 3;
 	grid-row: 1;
 }
 
 #login {
-    background-color:#EFF1F3;
+    /*background-color:#EFF1F*/3;
 	grid-column: 4 / span 1;
 	grid-row: 1;
 }
 
 #main {
-    background-color: #009FB7;
+    /*background-color: #009FB7;*/
 	grid-column: 1 / span 3;
 	grid-row: 3 
 }
 
 #profile {
-    background-color:cadetblue;
+    /*background-color:cadetblue;*/
 	grid-column: 4 / span 1;
     grid-row: 3 ; 
 }
 
 #social {
-    background-color: #FED766;
+    /*background-color: #FED766;*/
 	grid-column: 4 / span 1;
     grid-row: 2
 }
 #footer {
-    background-color: darkgoldenrod;
+    /*background-color: darkgoldenrod;*/
     grid-column:1 / span 4    ;
     grid-row:5;
 }

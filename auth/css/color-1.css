@@ -1,0 +1,31 @@
+/*background-color:#44B3C2;
+background-color:#F1A94E;
+background-color:#E45641;
+background-color:#7B8D8E;
+background-color:#F2EDD8;
+*/
+:root{
+    --main-color:#5AC2CC;
+    --text-color:rgb(70, 88, 91);
+    --link-color:#387A80;
+    --button-color:#70F3FF;
+    --background-color:#5E7D80;
+
+}
+
+{
+  color: var(--text-color);
+}
+
+button{
+    color:var(--text-color);
+    background-color: var(--button-color);
+}
+
+#menu{
+  background-color:var(--main-color) ;
+}
+
+a{
+  color:var(--link-color) ;
+}
